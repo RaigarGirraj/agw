@@ -1,0 +1,29 @@
+/* .line::after{
+    content: '';
+    position: absolute;
+    /* border: 2px solid #dc4343; */
+    /* display: block;
+    width: 1px;
+    height: 12rem;
+    margin-left:14rem;
+    background-color: #dc4343;
+    z-index: 10;
+} */ 
+ .shadow-xl{
+    --tw-shadow: 0 -2px 25px -4px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04) !important;
+ }
+ .member-card:hover{
+    transform: scale(1.05);
+ }
+ .mailId{
+    a{
+        text-decoration: none;
+        color:black
+    }
+    a:hover{
+        color:rgb(238, 196, 145)
+    }
+ }
+ .hoverBlack a:hover{
+    color:black !important;
+ }
